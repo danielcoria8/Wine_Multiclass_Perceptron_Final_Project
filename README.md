@@ -1,4 +1,4 @@
-# Wine_Multiclass_Perceptron_Final_Project
+## Wine_Multiclass_Perceptron_Final_Project
 
 Team: Felicia Zheng, Asya Tarabar, Daniel Coria, Morgan Taylor
 
@@ -8,23 +8,23 @@ Team: Felicia Zheng, Asya Tarabar, Daniel Coria, Morgan Taylor
 
 No installation needed if you are running in Google Colab — NumPy, Scikit-Learn, and Matplotlib come pre-installed. The notebook will run a pip install automatically as its first cell just in case.
 
-**Data**
+**Data:**
 
 The dataset is hosted on Google Drive. Download it and place it in the same directory as the notebook before running.
 
 Download the dataset here: https://drive.google.com/file/d/1S3E8MeDTQ7i2IC8NzSn13zhuHZYfjW2J/view?usp=sharing
 
-**How to Run**
+## How to Run:
 
-**1. Download the dataset CSV from the link above
+**1. Download the dataset CSV from the link above**
 
-**2. Open Intro_ML_Final_Project.ipynb in Google Colab
+**2. Open Intro_ML_Final_Project.ipynb in Google Colab**
 
-**3. Upload the CSV file to your Colab session by clicking the folder icon on the left sidebar, then clicking the upload button, and selecting the downloaded CSV file
+**3. Upload the CSV file to your Colab session by clicking the folder icon on the left sidebar, then clicking the upload button, and selecting the downloaded CSV file**
 
-**4. Run all cells in order — the first cell will automatically install any required dependencies
+**4. Run all cells in order — the first cell will automatically install any required dependencies**
 
-**Output**
+## Output:
 
 After running the notebook, you will see:
 
@@ -32,10 +32,8 @@ After running the notebook, you will see:
 - Final test set accuracy
 - A confusion matrix visualizing where categories overlap
 
-**Notes**
+## Notes:
 
 - The model targets a mean accuracy of at least 80% using a multi-class perceptron with a one-vs-rest strategy
-
 - If the perceptron does not meet the benchmark, a multi-layer perceptron or non-linear kernel fallback is implemented
-
 - Make sure the dataset file is in the correct directory before running or the notebook will not load the data properly

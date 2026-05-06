@@ -10,30 +10,29 @@ No installation needed if you are running in Google Colab — NumPy, Scikit-Lear
 
 **Data:**
 
-The dataset is hosted on Google Drive. Download it and place it in the same directory as the notebook before running.
+The dataset CSV file (XWines_Full_100K_wines.csv) is included in the zip file submission. You do not need to download it separately.
 
-Download the dataset here: https://drive.google.com/file/d/1S3E8MeDTQ7i2IC8NzSn13zhuHZYfjW2J/view?usp=sharing
+If for any reason the file is missing, it can also be downloaded from the project GitHub repository: https://github.com/danielcoria8/Wine_Multiclass_Perceptron_Final_Project
+
+Additionally, it is included in the zip file that we submitted to Gradescope.
 
 ## How to Run:
 
-**1. Download the dataset CSV from the link above**
+**1. Open Intro_ML_Final_Project.ipynb in Google Colab**
 
-**2. Open Intro_ML_Final_Project.ipynb in Google Colab**
+**2. Upload the CSV file (XWines_Full_100K_wines.csv) to your Colab session by clicking the folder icon on the left sidebar, then clicking the upload button, and selecting the CSV file from the unzipped folder**
 
-**3. Upload the CSV file to your Colab session by clicking the folder icon on the left sidebar, then clicking the upload button, and selecting the downloaded CSV file**
-
-**4. Run all cells in order — the first cell will automatically install any required dependencies**
+**3. Run all cells in order — the first cell will automatically install any required dependencies**
 
 ## Output:
 
 After running the notebook, you will see:
 
-- Training and validation accuracy scores across k-fold cross-validation
-- Final test set accuracy
-- A confusion matrix visualizing where categories overlap
+- Training, validation, and test accuracy scores for each model
+- A sample of wines with their engineered sweetness labels to verify label quality
+- The class distribution across all seven wine categories
+- A confusion matrix visualizing where categories overlap across predicted and true labels
 
 ## Notes:
 
-- The model targets a mean accuracy of at least 80% using a multi-class perceptron with a one-vs-rest strategy
-- If the perceptron does not meet the benchmark, a multi-layer perceptron or non-linear kernel fallback is implemented
 - Make sure the dataset file is in the correct directory before running or the notebook will not load the data properly

@@ -1,4 +1,5 @@
-## Wine_Multiclass_Perceptron_Final_Project
+## Don’t Know Wines? Don’t Wine About It!
+### Wine_Multiclass_Perceptron_Final_Project
 
 Team: Felicia Zheng, Asya Tarabar, Daniel Coria, Morgan Taylor
 
@@ -20,18 +21,18 @@ Additionally, it is included in the zip file that we submitted to Gradescope.
 
 **1. Open Intro_ML_Final_Project.ipynb in Google Colab**
 
-**2. Upload the CSV file (XWines_Full_100K_wines.csv) to your Colab session by clicking the folder icon on the left sidebar, then clicking the upload button, and selecting the CSV file from the unzipped folder**
+**2. Run all cells in order — the first cell will automatically install any required dependencies**
 
-**3. Run all cells in order — the first cell will automatically install any required dependencies**
+*Note*: The CSV file should be automatically cloned in the Colab file. However, if this does not work, upload the CSV file (XWines_Full_100K_wines.csv) to your Colab session by clicking the folder icon on the left sidebar, then clicking the upload button, and selecting the CSV file from the unzipped folder
 
 ## Output:
 
 After running the notebook, you will see:
 
-- Training, validation, and test accuracy scores for each model
-- A sample of wines with their engineered sweetness labels to verify label quality
-- The class distribution across all seven wine categories
-- A confusion matrix visualizing where categories overlap across predicted and true labels
+- results of K-Fold cross validation
+- the distribution of true and predicted labels within the test set
+- final model accuracy
+- a confusion matrix comparing the predicted and true labels from the final model
 
 ## Notes:
 
